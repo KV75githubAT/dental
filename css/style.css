@@ -1,0 +1,143 @@
+
+#bgimg{
+    background-color: #29a5b8;
+}
+.box{
+    height: 300px;
+}
+.about h3{
+    /* border: 1px solid #b0aaaa; */
+    /* border: .5px solid rgb(75, 72, 72);  */
+    border-radius: 22px;
+    color: #345b70;
+    letter-spacing: 2px;
+    margin: 60px 40px 50px 0px;
+    padding-left: 15px;
+}
+.about h3:hover{
+    color: rgb(148, 144, 144);
+}
+.about h2{
+   
+    color:#345b70;
+    /* padding: 10px; */
+    position: relative;
+    top: 10px;
+    bottom: 18px;
+    right:0px ;
+    left:0px ;
+}
+.about p{
+ font-size: 18px;
+ letter-spacing:3px ;
+ padding-top: 42px;
+}
+.about button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 4px;
+    position:relative;
+    right: 40px;
+}
+
+
+#pic{
+border: 5px solid #2f5480;
+border-radius: 25px;
+box-shadow:6px 6px 6px 6px rgb(54, 124, 134) ;
+}
+
+.icons{
+    height: 70px;
+    width: 70px;
+   
+}
+.content{
+    font-size: 18px;
+}
+#Group-img{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPgL_hfVPZLZJCj0YdNQCQKT7Ssmky6S1qkVQ9bW_XVRvpr1ykNdjtetTMjDbn1-wAVhc&usqp=CAU');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.picard img{
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border: none;
+  
+}
+#click button{
+    
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    border-radius: 10px;
+    position: sticky;
+}
+.Meet{
+    background-color:#def6fa;
+}
+
+/* #click1 button{
+    height: 50px;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    border-radius: 10px;
+    position: relative;
+    left: 50% ;
+    right:50%;
+    text-align: center;
+    
+   
+} */
+
+#c-fld{
+    background-color: rgb(186, 220, 209);
+}
+#c-fld img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    padding: 10px;
+    line-height: 1.5rem;
+   
+}
+ul{
+    display: flex;
+    list-style: none;
+    /* padding: 10px; */
+    margin-top: 24px;
+}
+ul li{
+    margin: 18px;
+    padding: 4px;
+    font-size: 28px;
+}
+/* .nrow{
+  
+} */
+#heart{
+    background-image: url('https://images.unsplash.com/photo-1585842378054-ee2e52f94ba2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvciUyMGNvbnN1bHRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    
+    /* opacity: 0.6; */
+}
+.image-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
