@@ -1,3 +1,17 @@
+.navbar-nav{
+margin: 0;
+}
+.nav-link{
+    font-size: 20px;
+}
+.collapse{
+    padding-left: 165px;
+}
+
+#effect:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.2); 
+}
 
 #bgimg{
     background-color: #29a5b8;
@@ -10,12 +24,12 @@
     /* border: .5px solid rgb(75, 72, 72);  */
     border-radius: 22px;
     color: #345b70;
-    letter-spacing: 2px;
+    letter-spacing: 1.2px;
     margin: 60px 40px 50px 0px;
-    padding-left: 15px;
+    padding-left: 18px;
 }
 .about h3:hover{
-    color: rgb(148, 144, 144);
+    color: rgb(99, 93, 93);
 }
 .about h2{
    
@@ -56,10 +70,11 @@ box-shadow:6px 6px 6px 6px rgb(54, 124, 134) ;
 .content{
     font-size: 18px;
 }
+
 #Group-img{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPgL_hfVPZLZJCj0YdNQCQKT7Ssmky6S1qkVQ9bW_XVRvpr1ykNdjtetTMjDbn1-wAVhc&usqp=CAU');
-    height: 100%;
-    width: 100%;
+    background-image: url('https://media.istockphoto.com/id/1397510789/photo/female-technicians-at-the-dental-laboratory-making-dentures.webp?b=1&s=170667a&w=0&k=20&c=4mZr2yaWZi4Grucdx2MtfTkxN8jfcQzukXFCuTbqBiw=');
+    /* height: 100%;
+    width: 100%; */
     background-repeat: no-repeat;
    background-size: cover;
 }
@@ -71,8 +86,60 @@ box-shadow:6px 6px 6px 6px rgb(54, 124, 134) ;
     border: none;
   
 }
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .text-md-left {
+        text-align: left;
+    }
+
+    .text-md-right {
+        text-align: right;
+    }
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.list-inline-item {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+    color: inherit;
+}
+
 #click button{
-    
+    margin-top: 30px;
     height: 50px;
     font-size: 20px;
     letter-spacing: 1.2px;
@@ -118,18 +185,18 @@ ul li{
     padding: 4px;
     font-size: 28px;
 }
-/* .nrow{
-  
-} */
+
 #heart{
     background-image: url('https://images.unsplash.com/photo-1585842378054-ee2e52f94ba2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvciUyMGNvbnN1bHRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 85vh;
     background-attachment: fixed;
     background-position: center;
-    
-    /* opacity: 0.6; */
+    /* opacity: 5; */} 
+.transparent{
+    background-color:  rgba(37, 97, 187, 0.5);
+    height: 85vh;
 }
 .image-overlay-text {
     position: absolute;
@@ -140,4 +207,128 @@ ul li{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    color: black;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent background for better readability */
+    padding: 1rem;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center; /* Center the text within the overlay */
+}
+
+.img-fluid {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text-content {
+    background: white;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center; /* Center the text within the white background */
+}
+
+.card-title a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.event button{
+width: 280px;
+height: 60px;
+margin-bottom: 30px;
+margin-top: 50px;
+padding: 10px;
+font-size: 19px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 74px;
+border-radius: 10px;
+}
+.event h1{
+   padding-top: 95px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.event p{
+    font-size: 25px;
+    color: #ffff;
+    margin-top: 45px;
+    
+}
+#footer-section{
+    background-color: rgb(186, 220, 209); 
+}
+.right-align {
+    text-align: right;
+}
+
+.right-align span{
+    padding: 1.5px;
+    margin: 1.5px;
+}
+.right-align span:hover{
+    color: rgb(12, 125, 201);
+    text-decoration: underline;
+}
+#footer-section img{
+    width: 85px;
+    height:85px;
+    margin-bottom: 22px;
+}
+#footer-section p{
+    font-size: 18px;
+    line-height: 1.8rem;
+}
+#footer-section span:hover{
+    color:rgb(12, 125, 201);
+    
+}
+#footer-section ul li{
+    margin: 5px;
+    margin-left: 0px;
+
+}
+.borderimg img{
+    width: 250px;
+    height: 250px;
+    margin:32px 20px;
+    
+}
+.profilecolor{
+    background-color: rgb(240, 249, 246);
+    width: 320px;
+    
+}
+.links p:hover{
+    color: rgb(12, 125, 201);
+}
+.first-pic{
+    background-image: url("https://wallpapers.com/images/high/dental-background-2290-x-1527-9oulkkfrdi1ks2k3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+#top_pic p{
+    margin:0px;
+    padding-top: 150px;
+    font-size: 23px;
+}
+#top_pic h1{
+    margin:0px;
+    padding-top: 15px;
+    font-size: 56px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
